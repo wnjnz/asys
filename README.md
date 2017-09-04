@@ -35,9 +35,11 @@ Assyst is a web app that helps volunteer organizations manage their front-line o
     - Within leadership team
     - Assignment of tasks
 
-## Design Goals
-- Adaptibility - quick updating of responsiblities/needs as situations arise
-- obvious/painless as possible for
+## Functionality Requirements
+- notification pushed out via SMS
+- mobile web form sign up
+- mobile web form portal
+- social media check-in/out/sign up
 
 # Needs/Brain Dump in Volunteer Management
 - clearcut communication for volunteers and those who manage them
