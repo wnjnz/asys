@@ -1,20 +1,20 @@
 # About
 Assyst is a web app that helps volunteer organizations manage their front-line operations in disaster relief.
 
-#Prospective Features
-##Data Collection
+# Prospective Features
+## Data Collection
 - volunteer sign up process
     - location
     - specialty
     - shift schedule
-##Notification system
+## Notification system
 - leadership pushing to each other and volunteers.
 - notify volunteer of locations/needs
-##Volunteer Portal
+## Volunteer Portal
 - process and procedures
 - Shift transitioning
 - FAQ, common info
-##Coordination
+## Coordination
 - notify volunteers of most needed shifts
 - notification system within coordination/leadership team
 - profile of leadership and their responsibilities
@@ -35,4 +35,4 @@ Assyst is a web app that helps volunteer organizations manage their front-line o
     - contact
     - specialty - licensed physicians, medical, etc.
 
-#How to Contribute
+# How to Contribute
