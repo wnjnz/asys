@@ -1,32 +1,48 @@
 {
-  "name": "assyst",
-  "version": "1.0.0",
-  "description": "A volunteer management system",
-  "main": "wwwroot/index.html",
+  "name": "assyt",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "webpack-dev-server --color",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
-  "author": "William R Shepherd",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wnjnz/assyst"
-  },
-  "license": "MIT",
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0"
   },
   "devDependencies": {
-    "@types/react": "^16.0.2",
-    "@types/react-dom": "^15.5.2",
-    "@types/webpack": "^3.0.10",
-    "awesome-typescript-loader": "^3.2.2",
-    "clean-webpack-plugin": "^0.1.16",
-    "html-webpack-plugin": "^2.30.1",
-    "source-map-loader": "^0.2.1",
-    "typescript": "^2.4.2",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "@types/enzyme": "^2.8.0",
+    "@types/jest": "^19.2.3",
+    "@types/react": "^15.0.23",
+    "@types/react-native": "^0.43.9",
+    "@types/react-test-renderer": "^15.5.0",
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "enzyme": "^2.8.2",
+    "jest": "19.0.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "ts-jest": "^19.0.14",
+    "typescript": "^2.3.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/"
+    ],
+    "cacheDirectory": ".jest/cache"
   }
 }
