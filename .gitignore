@@ -59,4 +59,5 @@ node_modules
 /coverage
 /third-party
 
-.DS_STORE
+# IOS Build files
+/ios/build
