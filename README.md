@@ -4,25 +4,28 @@ Assyst is a web app that helps volunteer organizations manage their front-line o
 # Prospective Features
 
 ## Data Collection
-- volunteer sign up process
+- volunteer sign up process/matching
     - location
-    - specialty
+    - if medically licensed professional
     - shift schedule
+- location of volunteer
+- location of shelters that need volunteers/skill
 
-## Notification system
-- leadership pushing to each other and volunteers.
+## SMS Notification system
+- leadership pushing to each other and volunteers
 - notify volunteer of locations/needs
 
 ## Volunteer Portal
 ### All:
 - FAQ, common info, expectations
-- profile - contact info, specialties, availability
-- sign up for future shifts
+- updatable profile - contact info, specialties, availability
+- ability to sign up for future shifts
 - logging
     - hours
 - exit interviews
     - long-term mental care
     - feedback
+- history of past shifts/organizations
 ### Leadership
 - process and procedures updating and documentation
     - role and responsibility
@@ -35,11 +38,14 @@ Assyst is a web app that helps volunteer organizations manage their front-line o
     - Within leadership team
     - Assignment of tasks
 
-## Functionality Requirements
+# Functionality Requirements
 - notification pushed out via SMS
 - mobile web form sign up
-- mobile web form portal
+    - volunteer should enter their profile/info and immediately access a list of shelters/needs/shifts
+    - organizations should be able to enter their needs/skills
+- mobile web portal
 - social media check-in/out/sign up
+- location based volunteer matching
 
 # Needs/Brain Dump in Volunteer Management
 - clearcut communication for volunteers and those who manage them
