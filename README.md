@@ -1,3 +1,3 @@
-# Assyst
+# Asys
 
-Assyst is a web app that helps volunteer organizations manage their front-line operations in disaster relief.
+Asys is a web app that helps volunteer organizations manage their front-line operations in disaster relief.
