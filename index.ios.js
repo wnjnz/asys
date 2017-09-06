@@ -1,3 +1,3 @@
 // index.ios.js
 
-import './src/index.ios';
+import './build/src/index.ios.js';

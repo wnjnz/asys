@@ -6,7 +6,7 @@ import {
   View
 } from 'react-native'
 
-export default class App extends React.Component<object, object> {
+export default class Asys extends React.Component<object, object> {
   public render() {
     return (
       <View style={styles.container}>
@@ -44,4 +44,4 @@ const styles = StyleSheet.create({
   },
 })
 
-AppRegistry.registerComponent('App', () => App)
+AppRegistry.registerComponent('asys', () => Asys)
