@@ -8,11 +8,11 @@
 - location of volunteer
 - location of shelters that need volunteers/skill
 
-## SMS Notification system
+## Notification system
 - leadership pushing to each other and volunteers
 - notify volunteer of locations/needs
 
-## Volunteer Portal
+## Volunteers
 ### All:
 - FAQ, common info, expectations
 - updatable profile - contact info, specialties, availability
@@ -36,11 +36,9 @@
     - Assignment of tasks
 
 # Functionality Requirements
-- notification pushed out via SMS
+- notification
 - mobile web form sign up
-    - volunteer should enter their profile/info and immediately access a list of shelters/needs/shifts
-    - organizations should be able to enter their needs/skills
-- mobile web portal
+    - volunteer should enter their profile/info and immediately access a list of shelters/needs/shifts that is feasible for them.
 - social media check-in/out/sign up
 - location based volunteer matching
 

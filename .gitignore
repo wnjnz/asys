@@ -45,7 +45,7 @@ local.properties
 
 # Node
 node_modules
-*.log
+*.log*
 .nvm
 /danger/node_modules/
 
@@ -60,12 +60,12 @@ node_modules
 /third-party
 
 # TypeScript
-#
 out/
 
 # Jest
-#
 .jest/
 
+
+# Build files
 ios/build
 android/build
