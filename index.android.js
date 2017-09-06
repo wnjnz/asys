@@ -1,3 +1,3 @@
 // android.js
 
-import './build/src/index.android.js';
+import "./build/src/app.js"
