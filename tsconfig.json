@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "jsx": "react-native",
+    "sourceMap": true,
+    "outDir": "./build",
+    "strict": true
+  },
+  "include": [
+    "./src/**/*",
+    "./__tests__/**/*"
+  ]
+}

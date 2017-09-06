@@ -59,4 +59,13 @@ node_modules
 /coverage
 /third-party
 
-.DS_STORE
+# TypeScript
+#
+out/
+
+# Jest
+#
+.jest/
+
+ios/build
+android/build
