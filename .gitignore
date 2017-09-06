@@ -59,5 +59,13 @@ node_modules
 /coverage
 /third-party
 
-# IOS Build files
-/ios/build
+# TypeScript
+out/
+
+# Jest
+.jest/
+
+
+# Build files
+ios/build
+android/build
