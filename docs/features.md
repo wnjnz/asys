@@ -1,8 +1,4 @@
-# Prospective Features
-
-## Notification
-- leadership notifying to each other
-- volunteers able to share info to their profile
+# Prospective Featurese
 ## Volunteers Profile
 ### Used by All volunteers:
 - FAQ, common info, expectations
