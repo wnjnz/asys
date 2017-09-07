@@ -5,4 +5,3 @@
  ##Getting Started
  - Build for React Native with their [getting started guide](https://facebook.github.io/react-native/docs/getting-started.html)
 - Install typescript: npm install -g typescript
-
